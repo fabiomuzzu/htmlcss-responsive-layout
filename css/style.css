@@ -191,3 +191,32 @@ footer{
     background-color: #333333;
     color: #fff;
 }
+
+/* MEDIA QUERY */
+@media screen and (min-width:768px){
+    #section1 .row{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .col-66{
+        width: calc(100% / 3 * 2);
+    }
+    
+    .col-33{
+        width: calc(100% / 3)
+    }
+
+    #section4 .row{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #section4 .col-33{
+        width: calc(100% / 2);
+    }
+
+    #section5 .row{
+        flex-direction: row;
+    }
+}
