@@ -59,7 +59,6 @@ img{
 
 .col-33{
     width: 100%;
-    height: 100px;
 }
 
 /* BG COLOR */
@@ -75,7 +74,7 @@ img{
 
 #section1 .col-66,
 #section1 .col-33{
-    background-color: red;
+    background-color: #b5ddff;
 }
 
 /* BORDER */
