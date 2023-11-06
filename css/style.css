@@ -24,7 +24,7 @@
 }
 
 .img-container{
-    width: 100%;
+    width: 50%;
 }
 
 img{
@@ -34,7 +34,6 @@ img{
 /* COLUMN SECTION TOGLIERE ALTEZZE */
 .col-50{
     width: 100%;
-    height: 100px;
 }
 
 .col-70{
@@ -54,7 +53,6 @@ img{
 
 .col-66{
     width: 100%;
-    height: auto;
 }
 
 .col-33{
@@ -68,13 +66,13 @@ img{
     background-color: #9593e6;
 }
 
-#section2 .col-50{
-    background-color: green;
-}
-
 #section1 .col-66,
 #section1 .col-33{
     background-color: #b5ddff;
+}
+
+#section2 .col-50:last-child{
+    background-color: #fff;
 }
 
 /* BORDER */
@@ -100,6 +98,10 @@ header .container{
     height: 100%;
 }
 
+.hr-content{
+    width: 100%;
+}
+
 header .row{
     height: 100%;
 }
@@ -113,24 +115,28 @@ header .col-50{
 
 #menù{
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
 }
 
 header img{
-    width: 30%;
+    width: 50%;
 }
 /* SEZIONE 1 */
 #section1 .row{
     flex-direction: column;
 }
 
-#section1 .img-container{
-    width: 50%;
-}
 
 /* SEZIONE 2 */
 #section2 .row{
     flex-direction: column;
+}
+
+#section2 i{
+    background-color: #9593e6;
+    border-radius: 50%;
+    padding: 10px 13px;
 }
 
 /* SEZIONE 3 */
