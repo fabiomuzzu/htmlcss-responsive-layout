@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-header{
-    height: 70px;
-    background-color: #0084fd;
-}
 
 /* COMMON */
 .container{
@@ -24,20 +20,41 @@ header{
 
 /* FLEX */
 
-/* COLUMN SECTION */
+/* COLUMN SECTION TOGLIERE ALTEZZE */
 .col-50{
     width: 50%;
 }
 
+.col-66{
+    width: calc(100% / 3 * 2);
+    height: 100px;
+    background-color: red;
+}
+
+.col-33{
+    width: calc(100% / 3);
+    height: 100px;
+    background-color: blue;
+}
 /* BG COLOR */
 
 /* BORDER */
+.border{
+    border: 1px solid black;
+}
 
 /* PADDING */
-
+.padding0-50{
+    padding: 0px 50px;
+}
 /* MARGIN */
 
 /* HEADER */
+header{
+    height: 70px;
+    background-color: #0084fd;
+}
+
 header .container{
     width: 100%;
     height: 100%;
@@ -57,4 +74,9 @@ header .col-50{
 #menù{
     display: flex;
     justify-content: flex-end;
+}
+
+/* SEZIONE 1 */
+#section1 .row{
+    flex-direction: column;
 }
